@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 250, 242);
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 20px;
+  margin: 2%;
+}
+
+header {
+  background-color: antiquewhite;
+  width: 100%;
+  padding: 3% 0 3%;
+  text-align: center;
+}
+
+#info {
+  text-align: center;
+}
+
+#info-in p {
+  display: inline-block;
+  margin: 2% 3% 0% 3%;
+}
+
+.content-block {
+  padding: 0 20% 0;
+  text-align: center;
+}
+
+.content-block h2 {
+  text-align: center;
+  margin: 20% 1% 3% 1%;
+}
+
+#selfintroduction {
+  text-align: justify;
+}
+
+/* #selfintroduction p {
+  margin-top: 2%;
+} */
+
+#education div {
+  text-align: center;
+}
+
+.h3-title {
+  display: inline-block;
+  margin: 2% 10% 0%;
+}
+
+/* #education p {
+  margin: 2% 0;
+} */

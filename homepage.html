@@ -5,34 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Jerry's resume</title>
   </head>
   <body>
-    <h1>莊子毅(Tzu-Yi Chuang)</h1>
-    <div id="info">
-      <p>Taipei City, Taiwan</p>
-      <p>s1096016@mail.yzu.edu.tw</p>
-      <p>+886984200150</p>
+    <header>
+      <h1>莊子毅(Tzu-Yi Chuang)</h1>
+      <div id="info">
+        <div id="info-in">
+          <p>Taipei City, Taiwan</p>
+          <p>s1096016@mail.yzu.edu.tw</p>
+          <p>+886984200150</p>
+        </div>
+      </div>
+    </header>
+    <div
+      class="content-block animate__animated animate__zoomIn"
+      id="selfintroduction"
+    >
+      <h2>自我介紹</h2>
+      <hr />
+      <p>
+        嗨，我是莊子毅，元智大學資訊工程系碩士畢業。剛畢業還尚未服兵役，因此想找短期兼職、實習工作。研究所領域為自然語言處理，主要做教育探勘、語意分類、情感分析。三年以上Python開發經驗，擅長深度學習、機器學習、網路爬蟲、資料分析等等。性格開朗、幽默、善於團隊合作、做事認真，秉持三思而後行的精神，在乎事情的細節並努力將每件事做到最好。是個喜歡多元學習，嘗試各種新東西的人。
+      </p>
     </div>
-    <div id="education">
-      <div id="master">
-        <h2>元智大學</h2>
-        <h3>資訊工程學系 碩士</h3>
+    <div class="content-block animate__animated animate__zoomIn" id="education">
+      <h2>學歷</h2>
+      <hr />
+      <div>
+        <h3 class="h3-title">元智大學 資訊工程學系 碩士</h3>
+        <h3 class="h3-title">2020.09~2022.07</h3>
+      </div>
+      <p>
+        論文題目：學生課後自評心得分類機制之實作與實務議題探究：無意義資料、不平衡資料、與多重標籤資料
+      </p>
+      <p>研究領域：自然語言處理、語意模型、資料分析、機器學習、深度學習</p>
+
+      <div>
+        <h3 class="h3-title">元智大學 資訊工程學系 學士</h3>
+        <h3 class="h3-title">2016.09~2020.06</h3>
+      </div>
+      <p>專題：基於開放資料及社群評論分析之旅遊推薦系統</p>
+    </div>
+
+    <div class="content-block" id="language">
+      <h2>語言能力</h2>
+      <hr />
+      <h3 data-aos="zoom-in" class="h3-title">中文(母語)</h3>
+      <p data-aos="zoom-in">聽：精通 | 說：精通 | 讀：精通 | 寫：精通</p>
+      <h3 data-aos="zoom-in" class="h3-title">英文</h3>
+      <p data-aos="zoom-in">聽：中等 | 說：中等 | 讀：中等 | 寫：中等</p>
+      <p data-aos="zoom-in">TOEIC(多益測驗)：780分</p>
+      <h3 data-aos="zoom-in" class="h3-title">韓文</h3>
+      <p data-aos="zoom-in">聽：中等 | 說：略懂 | 讀：略懂 | 寫：略懂</p>
+      <p data-aos="zoom-in">TOPIK(韓語)：195分</p>
+    </div>
+    <div class="content-block" id="skills">
+      <h2>專長</h2>
+      <hr />
+      <div data-aos="zoom-in" class="skill">
+        <h3 class="h3-title">Python</h3>
         <p>
-          論文題目：學生課後自評心得分類機制之實作與實務議題探究：無意義資料、不平衡資料、與多重標籤資料
+          Python為我的主要使用程式語言。研究領域為自然語言處理(NLP)、建構語言模型，包括：情感分類、語意分類等等。其他有：資料分析、數據分析、網路爬蟲，以及使用flask、dash建構可互動的資料視覺化頁面。
         </p>
-        <p>研究領域：自然語言處理、語意模型、資料分析、機器學習、深度學習</p>
-        <p>2020.09~2022.07</p>
+        <p>#tensorflow #pytorch #rnn #pandas #numpy</p>
       </div>
-      <div id="bachelor">
-        <h2>元智大學</h2>
-        <h3>資訊工程學系 學士</h3>
-        <p>專題：基於開放資料及社群評論分析之旅遊推薦系統</p>
-        <p>2016.09~2020.06</p>
+      <div data-aos="zoom-in" class="skill">
+        <h3 class="h3-title">自然語言處理</h3>
+        <p>語意分析、詞性提取、word2vec、LSTM、BERT</p>
+      </div>
+      <div data-aos="zoom-in" class="skill">
+        <h3 class="h3-title">網頁設計</h3>
+        <p>
+          可使用html、css、javascript等製作簡單網頁，也有學習過一點React框架。
+        </p>
+      </div>
+      <div data-aos="zoom-in" class="skill">
+        <h3 class="h3-title">Word、PowerPoint、Excel</h3>
+        <p>
+          擅長使用文書軟體，版面配置、簡報設計、以及數據整理。特別是PPT的部分，擅長用母片製作基底、製作動畫或沈浸式簡報等等。
+        </p>
+      </div>
+      <div data-aos="zoom-in" class="skill">
+        <h3 class="h3-title">C++</h3>
+        <p>第一個接觸的語言，研究所時曾經擔任過兩年C++課程助教。</p>
+      </div>
+      <div data-aos="zoom-in" class="skill">
+        <h3 class="h3-title">其他(依照熟練程度區分)</h3>
+        <p>中等：Git</p>
+        <p>基礎：C#, ASP.NET, SQL, React</p>
       </div>
     </div>
-    <div id="skill">
-      <div id="coding"></div>
-    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1100,
+      });
+    </script>
   </body>
 </html>
