@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  background-color: rgb(244, 255, 254);
+  background-color: rgb(255, 255, 255);
 }
 
 h2 {
@@ -61,7 +61,7 @@ p {
 }
 
 .cb2 {
-  background: linear-gradient(90deg, #efe9fc, #f5f5f5);
+  background: linear-gradient(45deg, #cecece, #ffffff);
 }
 
 .content-block h2 {
